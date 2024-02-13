@@ -1,0 +1,3 @@
+Binary Pattern For Very Popular Emoji, it's Laugh Emoji = 11110000100111111001100010000010 = (Decimal) 4036991106 = (Unicode, HEX) U+1F602
+4036991106 is the decimal number in UTF-8 (i.e. AL32UTF8)
+128514 is the decimal number in UTF-32BE

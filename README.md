@@ -1,4 +1,4 @@
-# cs50-computer-science
+# CS50 Introduction to Computer Science
 
 ## Project Overview
 Welcome to the CS50 Computer Science course!

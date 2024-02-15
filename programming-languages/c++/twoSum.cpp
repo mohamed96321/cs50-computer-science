@@ -33,6 +33,44 @@ int main() {
 }
 
 /*
+
+#include <iostream>
+
+using namespace std;
+
+int* twoSum(int* nums, int numsSize, int target) {
+    int* ans = new int[2]{-1, -1}; // Initialize the array with default values
+
+    for (int i = 0; i < numsSize; i++) {
+        for (int j = i + 1; j < numsSize; j++) {
+            if (nums[i] + nums[j] == target) {
+                ans[0] = i;
+                ans[1] = j;
+                return ans;
+            }
+        }
+    }
+
+    return ans;
+}
+
+int main() {
+    int nums[] = { 2, 3, 4 };
+    int target = 6;
+    int* ans = twoSum(nums, 3, target);
+
+    if (ans[0] == -1) {
+        cout << "No such pair found";
+    } else {
+        cout << "The pair is (index): " << ans[0] << ", " << ans[1];
+    }
+
+    // Deallocate memory for the ans array
+    delete[] ans;
+
+    return 0;
+}
+
 #include <vector>
 using namespace std;
 

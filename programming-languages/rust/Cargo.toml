@@ -1,0 +1,10 @@
+[package]
+name = "rearrange-array"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "rearrange-array"
+path = "rearrangeArray.rs"

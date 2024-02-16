@@ -147,3 +147,49 @@ nasm -f elf64 filename.asm -o filename.o
 ```bash
 ld filename.o -o filename
 ```
+
+### How to Install, Compile and Run Rust files:
+To install, compile and run rust files, use the following commands in the terminal:
+
+**Install Rust:**
+(https://www.rust-lang.org/tools/install)
+
+**Compile files:**
+```bash
+rustc filename.rs
+// or using cargo(recommended) must create Cargo.toml
+cargo build
+```
+
+**Run files:**
+```bash
+./filename
+// or using cargo(recommended)
+cargo run
+```
+
+### How to Install and Run Ruby files:
+To install and run ruby files, use the following commands in the terminal:
+
+**Install Ruby:**
+```bash
+choco install ruby
+```
+
+**Run files:**
+```bash
+ruby filename.rb
+```
+
+### How to Install and Run Golang files:
+To install and run go files, use the following commands in the terminal:
+
+**Install Golang:**
+```bash
+choco install golang
+```
+
+**Run files:**
+```bash
+go run filename.go
+```

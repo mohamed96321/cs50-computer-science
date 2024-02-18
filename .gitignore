@@ -1,3 +1,4 @@
 /node_modules
 # Ignore C++/C/Java executable files
 out
+bin

@@ -13,13 +13,14 @@ The CS50 Computer Science Course includes:
 6. SQL Databases: Gain proficiency in working with databases, utilizing SQL to manage and query data efficiently.
 
 ## We will using choco and bash commands to run and install all programming languages.
-When using "choco" command: Right-click on the Start menu and select "Command Prompt (Admin)" or "Windows PowerShell (Admin).".
+When using "choco install <package name>" command: Right-click on the Start menu and select "Command Prompt (Admin)" or "Windows PowerShell (Admin).".
+And then Search for packages by using "choco search <package name>" command if this package exists install it or download it from their official website.
 
 Please make sure you have installed Chocolatey (https://chocolatey.org/install) before proceeding with these instructions.
 
 We can using "sudo apt" command in Ubuntu.
 
-We can using "brew" command in MacOS. 
+We can using "brew" command in MacOS.
 
 ### How to Install, Compile and Run C files:
 To install, compile and run c files, use the following commands in the terminal:
@@ -114,6 +115,25 @@ javac FileName.java
 **Run files:**
 ```bash
 java FileName
+```
+
+### How to Install, Compile and Run Kotlin files:
+To install, compile and run kotlin files, use the following commands in the terminal:
+
+**Install Kotlin:**
+```bash
+choco install openjdk
+choco install kotlin or (https://github.com/JetBrains/kotlin/releases)
+```
+
+**Compile files:**
+```bash
+kotlinc FileName.kt -include-runtime -d FileName.jar
+```
+
+**Run files:**
+```bash
+java -jar FileName.jar
 ```
 
 ### How to Compile and Run Shell files:

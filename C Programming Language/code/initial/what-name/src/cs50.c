@@ -1,7 +1,7 @@
+#include <cs50.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <cs50.h>
 
 string get_string(const char* prompt) {
 

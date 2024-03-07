@@ -13,8 +13,8 @@ The CS50 Computer Science Course includes:
 6. SQL Databases: Gain proficiency in working with databases, utilizing SQL to manage and query data efficiently.
 
 ## We will using choco and bash commands to run and install all programming languages.
-When using "choco install <package name>" command: Right-click on the Start menu and select "Command Prompt (Admin)" or "Windows PowerShell (Admin).".
-And then Search for packages by using "choco search <package name>" command if this package exists install it or download it from their official website.
+When using "choco install package_name" command: Right-click on the Start menu and select "Command Prompt (Admin)" or "Windows PowerShell (Admin).".
+And then Search for packages by using "choco search package_name" command if this package exists install it or download it from their official website.
 
 Please make sure you have installed Chocolatey (https://chocolatey.org/install) before proceeding with these instructions.
 
@@ -134,6 +134,19 @@ kotlinc FileName.kt -include-runtime -d FileName.jar
 **Run files:**
 ```bash
 java -jar FileName.jar
+```
+
+### How to Install and Run Lua files:
+To install and run lua files, use the following commands in the terminal:
+
+**Install Lua:**
+```bash
+choco install lua
+```
+
+**Run files:**
+```bash
+lua filename.lua
 ```
 
 ### How to Compile and Run Shell files:

@@ -8,7 +8,7 @@ BIN_DIR = bin
 
 SOURCES = $(wildcard $(SRC_DIR)/*.c)
 OBJECTS = $(patsubst $(SRC_DIR)/%.c, $(OBJ_DIR)/%.o, $(SOURCES))
-EXECUTEABLE = $(BIN_DIR)/hello.exe
+EXECUTEABLE = $(BIN_DIR)/run
 
 all: $(EXECUTEABLE)
 
